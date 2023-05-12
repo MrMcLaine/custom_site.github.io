@@ -1,0 +1,230 @@
+
+@media (max-width: 768px) and (min-width: 321px) {
+
+    html,
+    body {
+      width: 768px;
+    }
+  
+    .header {
+      width: 768px;
+      background-image: url(../images/header-tablet.png);
+  
+      .header_logo .header_logo__name {
+        margin-left: 48px;
+      }
+  
+      .header_logo .header_login {
+        margin-right: 23px;
+      }
+    }
+  
+    main {
+      @include box (768px, 2735px);
+  
+      .dreamshare {
+        width: 768px;
+  
+        .dreamshare__heading {
+          font-size: 22px;
+          margin-top: 96px;
+        }
+  
+        .dreamshare_container {
+          width: 768px;
+          justify-content: space-around;
+  
+          .dreamshare_container__dream1 {
+            @include box (236px, 400px);
+            background-image: url(../images/dream-step-tablet-1.png);
+          }
+  
+          .dreamshare_container__dream2 {
+            @include box (236px, 400px);
+            background-image: url(../images/dream-step-tablet-2.png);
+          }
+  
+          .dreamshare_container__dream3 {
+            @include box (236px, 400px);
+            background-image: url(../images/dream-step-tablet-3.png);
+          }
+  
+          .subHeading {
+            margin-bottom: 16px;
+            margin-left: 20px;
+            width: 186px;
+          }
+  
+          .heading3,
+          .heading1 {
+            margin-bottom: 28px;
+            margin-left: 20px;
+            line-height: 14px;
+          }
+  
+          .step3,
+          .step1 {
+            margin-bottom: 46px;
+            margin-left: 21px;
+          }
+  
+          .subHeading2 {
+            margin-bottom: 16px;
+            margin-left: 20px;
+            width: 200px;
+          }
+  
+          .heading2 {
+            margin-bottom: 22px;
+            margin-left: 20px;
+            line-height: 14px;
+            width: 150px;
+          }
+  
+          .step2 {
+            margin-bottom: 18px;
+            margin-left: 20px;
+          }
+        }
+      }
+  
+      .partners {
+        @include box (768px, 710px);
+  
+        .partners__heading {
+          font-size: 22px;
+          margin-top: 96px;
+        }
+  
+        .partners_container {
+          @include box (475px, 470px);
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: space-between;
+          margin-top: 39px;
+  
+          .partner1,
+          .partner2,
+          .partner3,
+          .partner4 {
+            @include box (221px, 214px);
+  
+            .partner_name {
+              margin-top: 16px;
+            }
+  
+            .partner_description {
+              margin-top: 22px;
+              width: 250px;
+            }
+          }
+        }
+  
+        .partners-btn {
+          margin-top: 32px;
+        }
+      }
+  
+      .activities {
+        width: 768px;
+        @include box (768px, 1116px);
+  
+        .activities__heading {
+          font-size: 22px;
+          margin-top: 87px;
+        }
+  
+        .activities_container {
+          @include box (748px, 1010px);
+  
+          .activities__1 {
+            @include box (236px, 310px);
+            background-image: url(../images/activity-tablet1.png);
+  
+            .text1 {
+              width: 127px;
+              margin-top: -31px;
+              text-align: center;
+            }
+          }
+  
+          .activities__2 {
+            @include box (236px, 310px);
+            background-image: url(../images/activity-tablet2.png);
+  
+            .text2 {
+              width: 160px;
+              margin-top: -5px;
+              text-align: center;
+            }
+          }
+  
+          .activities__3 {
+            @include box (236px, 310px);
+            background-image: url(../images/activity-tablet3.png);
+  
+            .text3 {
+              width: 190px;
+              margin-top: 5px;
+              text-align: center;
+            }
+          }
+  
+          .activities__4 {
+            @include box (236px, 310px);
+            background-image: url(../images/activity-tablet4.png);
+          }
+  
+          .activities__5 {
+            @include box (492px, 310px);
+            background-image: url(../images/activity-tablet5.png);
+          }
+  
+          .activities__6 {
+            @include box (492px, 310px);
+            background-image: url(../images/activity-tablet6.png);
+          }
+  
+          .activities__7 {
+            @include box (236px, 310px);
+            background-image: url(../images/activity-tablet7.png);
+          }
+        }
+      }
+  
+      .search {
+        width: 768px;
+  
+        .search__heading {
+          font-size: 22px;
+          margin-top: 96px;
+        }
+      }
+    }
+  
+    .footer {
+      width: 768px;
+  
+      .footer__dreamshare {
+        margin-left: 39px;
+      }
+  
+      .footer_menu {
+        margin-left: 108px;
+  
+        .footer_menu_links {
+          margin-top: 11px;
+          width: 115px;
+        }
+      }
+  
+      .footer_partners {
+        margin-left: 55px;
+      }
+  
+      .footer_designed {
+        margin-left: 119px;
+      }
+    }
+  }
+  
